@@ -1,0 +1,41 @@
+.text_center {
+  text-align: center;
+}
+
+.container {
+  align-items: center;
+  justify-content: center;
+}
+
+.row {display: flex;
+    justify-content: center;
+  flex-direction: row;
+padding: 5px ;}
+
+.inprow{ padding:20px;
+    font-size: 14px;
+    border-radius: 5px;
+border:solid black;
+background-color: #f0f0f0;
+}
+.inp{ 
+  display: flex;
+  padding : 10px;
+  text-align: center;
+  justify-content: center;
+  flex-direction: row;
+  padding: 5px;
+
+  
+}
+.btn ,.btn_operator {
+    color: rgb(0, 0, 0);
+    padding:17px;
+    margin: 5px;
+    border-radius: 5px;
+    border:solid black;
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+
